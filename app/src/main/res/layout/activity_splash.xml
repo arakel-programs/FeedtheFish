@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/splashScreenTitle"
+        android:src="@drawable/main_img"/>
+
+    <TextView
+        android:id="@+id/splashScreenTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:id="@+id/splashText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_below="@+id/splashImage"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/splashCopyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_copyright"
+        android:padding="5dp"
+        android:text="@string/dev_name"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+</RelativeLayout>

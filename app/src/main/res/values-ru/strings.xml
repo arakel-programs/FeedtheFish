@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Покорми рыбку</string>
+    <string name="loading">Загрузка</string>
+    <string name="dev_name"> Arakel</string>
+    <string name="game_over">Конец Игры</string>
+    <string name="score_title">Очки:</string>
+    <string name="score_equel">Очки = </string>
+    <string name="start_btn">Начать</string>
+    <string name="red_ball_ex">Не косайтесь красных шаров!!!</string>
+</resources>
